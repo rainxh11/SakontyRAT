@@ -5,15 +5,15 @@ Advanced Remote Access Trojan
 - [ ] Port Forwarding (Tunneling) from victim machine to server machine and vice-versa
 - [ ] Integrated Dynamic DNS Domains management (No-IP, DyDNS...etc)
 - [ ] Support for multiple callback methods
-		- [ ] Dynamic DDNS, Static domain, IP callback
-		- [ ] Pastebin host list Callback
-		- [ ] Cloud Storage host text file Callback
-			- [ ] Google Drive
-			- [ ] OneDrive
-			- [ ] DropBox
-			- [ ] Mega.nz
- 		- [ ] RESTFUL Web API Callback
-		- [ ] TOR Onion Address Callback
+	- [ ] Dynamic DDNS, Static domain, IP callback
+	- [ ] Pastebin host list Callback
+	- [ ] Cloud Storage host text file Callback
+	- [ ] Google Drive
+	- [ ] OneDrive
+	- [ ] DropBox
+	- [ ] Mega.nz
+	- [ ] RESTFUL Web API Callback
+	- [ ] TOR Onion Address Callback
 - [ ] Advanced File Manager
 	- [ ] Compression & Decompression of archive files
 	- [ ] Integrated Text Editor
