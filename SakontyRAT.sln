@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{F78FBAAC-28B4-45C0-9B35-A5C3EF5B03CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{18BFDD2C-5C4D-422C-BEE7-FFDD1EC38EA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{4575750C-A194-4D49-891F-2F66B8B3244B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SakontyRAT.Server", "SakontyRAT.Server\SakontyRAT.Server.csproj", "{6DC567ED-12D3-4B24-BD5C-852A3E88665F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SakontyRAT.Network", "SakontyRAT.RequestHandler\SakontyRAT.Network.csproj", "{7C60A1DE-F46E-46E3-A849-5063271C6A7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkLabChifa.HttpApi", "..\SkLabCHIFA\SkLabChifa.HttpApi\SkLabChifa.HttpApi.csproj", "{F4B37B2B-0E60-4C1C-95A6-A0A9FDF9E224}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DC567ED-12D3-4B24-BD5C-852A3E88665F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC567ED-12D3-4B24-BD5C-852A3E88665F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC567ED-12D3-4B24-BD5C-852A3E88665F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6DC567ED-12D3-4B24-BD5C-852A3E88665F}.Debug|x86.Build.0 = Debug|Any CPU
+		{6DC567ED-12D3-4B24-BD5C-852A3E88665F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC567ED-12D3-4B24-BD5C-852A3E88665F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC567ED-12D3-4B24-BD5C-852A3E88665F}.Release|x86.ActiveCfg = Release|Any CPU
+		{6DC567ED-12D3-4B24-BD5C-852A3E88665F}.Release|x86.Build.0 = Release|Any CPU
+		{7C60A1DE-F46E-46E3-A849-5063271C6A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C60A1DE-F46E-46E3-A849-5063271C6A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C60A1DE-F46E-46E3-A849-5063271C6A7C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7C60A1DE-F46E-46E3-A849-5063271C6A7C}.Debug|x86.Build.0 = Debug|Any CPU
+		{7C60A1DE-F46E-46E3-A849-5063271C6A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C60A1DE-F46E-46E3-A849-5063271C6A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C60A1DE-F46E-46E3-A849-5063271C6A7C}.Release|x86.ActiveCfg = Release|Any CPU
+		{7C60A1DE-F46E-46E3-A849-5063271C6A7C}.Release|x86.Build.0 = Release|Any CPU
+		{F4B37B2B-0E60-4C1C-95A6-A0A9FDF9E224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B37B2B-0E60-4C1C-95A6-A0A9FDF9E224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B37B2B-0E60-4C1C-95A6-A0A9FDF9E224}.Debug|x86.ActiveCfg = Debug|x86
+		{F4B37B2B-0E60-4C1C-95A6-A0A9FDF9E224}.Debug|x86.Build.0 = Debug|x86
+		{F4B37B2B-0E60-4C1C-95A6-A0A9FDF9E224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B37B2B-0E60-4C1C-95A6-A0A9FDF9E224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B37B2B-0E60-4C1C-95A6-A0A9FDF9E224}.Release|x86.ActiveCfg = Release|x86
+		{F4B37B2B-0E60-4C1C-95A6-A0A9FDF9E224}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DC567ED-12D3-4B24-BD5C-852A3E88665F} = {F78FBAAC-28B4-45C0-9B35-A5C3EF5B03CA}
+		{F4B37B2B-0E60-4C1C-95A6-A0A9FDF9E224} = {18BFDD2C-5C4D-422C-BEE7-FFDD1EC38EA2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26316912-4162-4478-B547-8259D2962300}
+	EndGlobalSection
+EndGlobal

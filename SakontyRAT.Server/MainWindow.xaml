@@ -1,0 +1,12 @@
+﻿<dx:ThemedWindow
+    x:Class="SakontyRAT.Server.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    xmlns:local="clr-namespace:SakontyRAT.Server.Views"
+    Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <local:MainView>
+        </local:MainView>
+    </Grid>
+</dx:ThemedWindow>
